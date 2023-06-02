@@ -1,0 +1,28 @@
+{
+  "name": "internship-test",
+  "version": "1.0.0",
+  "description": "Bookshow Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "Jest"
+  },
+  "author": "Muskan",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/transformer-react-refresh-wrap": "^2.9.1",
+    "html-react-parser": "^4.0.0",
+    "parcel": "^2.9.1",
+    "react": "^18.2.0",
+    "react-axios": "^2.0.6",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "postcss": "^8.4.24",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  }
+}
