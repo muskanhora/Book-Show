@@ -2,7 +2,7 @@ import  parse  from "html-react-parser";
 import { Link } from "react-router-dom";
 
 const ShowCard=({image,name,type,language,rating,genres,runtime,summary,id})=>{
-    let imageSrc=image.original;
+    let imageSrc=image?.original;
     return(
         <div className="m-2 p-5 shadow-xl flex">
         <img className="p-2 h-64" src={imageSrc}/>

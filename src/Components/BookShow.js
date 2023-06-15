@@ -13,8 +13,6 @@ const BookShow=()=>{
             console.log(input);
             localStorage.setItem('dataKey', JSON.stringify(input));
           }
-  
-  
 
     return(
         <>
